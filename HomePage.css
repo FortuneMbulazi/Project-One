@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: teal;
+    background-image: url("../images/jason-briscoe-amLfrL8LGls-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    height: 650px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    margin: auto;    
+}
+
+h1, h2{
+    text-transform: uppercase;
+}
+
+.heading{
+    height: 70px;
+    width: inherit;
+    background-color: red;
+    opacity: .9;
+    font-style: bolder;
+    color:  black;
+}
+
+.footer{
+    height: 60px;
+    width: inherit;
+    background-color: black;
+    opacity: .8;
+    font-style: italic;
+}
+.content{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 500px;
+    width: inherit;
+}
+.content hr{
+    width: 400px;
+    margin: auto;
+    border-width: 5px;
+    margin-bottom: 10px;
+    border-color: #f44;
+}
